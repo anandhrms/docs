@@ -5,6 +5,20 @@
     "description": "Visu Customer Service by @Visu.ai",
     "version": "1.0.0"
   },
+  "servers": [
+    {
+      "url": "https://dev-api.visu.ai/v1",
+      "description": "Development"
+    },
+    {
+      "url": "https://staging-api.visu.ai/v1",
+      "description": "Staging"
+    },
+    {
+      "url": "https://api.visu.ai/v1",
+      "description": "Production"
+    }
+  ],
   "paths": {
     "/v1/monitoring/health/": {
       "get": {
