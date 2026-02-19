@@ -7,15 +7,15 @@
   },
   "servers": [
     {
-      "url": "https://dev-api.visu.ai/v1",
+      "url": "https://dev-api.visu.ai",
       "description": "Development"
     },
     {
-      "url": "https://staging-api.visu.ai/v1",
+      "url": "https://customer-staging.visu.ai",
       "description": "Staging"
     },
     {
-      "url": "https://api.visu.ai/v1",
+      "url": "https://api.visu.ai",
       "description": "Production"
     }
   ],
